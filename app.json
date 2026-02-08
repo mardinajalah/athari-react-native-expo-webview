@@ -15,10 +15,9 @@
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground-brand.png",
-        "backgroundImage": "./assets/images/android-icon-foreground-brand.png",
-        "monochromeImage": "./assets/images/android-icon-foreground-brand.png"
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "versionCode": 3,
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.mardinmardin.Athari"
@@ -32,7 +31,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/android-icon-foreground-brand.png",
+          "image": "./assets/images/android-icon-splash-brand.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
