@@ -18,9 +18,10 @@
         "backgroundImage": "./assets/images/android-icon-foreground-brand.png",
         "monochromeImage": "./assets/images/android-icon-foreground-brand.png"
       },
-      "versionCode": 2,
+      "versionCode": 3,
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.mardinmardin.Athari"
     },
     "web": {
       "output": "static",
@@ -44,6 +45,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4d9c6888-5af8-4d73-81eb-49b3fbe37dc5"
+      }
     }
   }
 }
